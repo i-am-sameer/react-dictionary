@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import Input from './components/Input';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <input className="mainSearchBox" title="Type something" placeholder="Type something"></input>
+        <Input />
       </div>
     );
   }
